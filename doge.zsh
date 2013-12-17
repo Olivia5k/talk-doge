@@ -18,7 +18,7 @@ SELF=$0:a:h
 # Unless you've been living under an internet rock for the last couple of
 # months, you've probably seen this face pop up every now and again:
 
-function imgs() {
+function images() {
   feh --full-screen $SELF/img/doge/*
 }
 
@@ -28,5 +28,30 @@ function imgs() {
 # his Shiba Inu dog with some randomly placed and randomly colored japanese
 # writings on them. This being the internet, some presumably stoned language
 # major on 4chan found these images and translated the texts and began
-# uploading some of them in English. Hilarity ensued, and the rest is pretty
-# much internet history by now.
+# uploading some of them in English. Hilarity and memetics ensued, and the rest
+# is pretty much internet history by now. Also notable is that most people seem
+# to have given doge the name Shibe. It's unclear why.
+
+# So, why am I telling you this? Because I turned it into code, of course!
+
+function doge() {
+  /usr/bin/doge --shibe=doge.txt
+}
+
+# This is the terminal doge. very wow, such impress.
+
+# After talking like a doge for a while with my cousin/roommate, I had this
+# quick thought: "shit maybe i can turn this into code! random is pretty easy;
+# cant be that hard rite!". So, I sat down and started coding. Half an hour
+# later, I had random colored strings positioning themselves randomly.
+
+function text() {
+  /usr/bin/doge --no-shibe
+}
+
+# An hour after that, I had used the excellent little img2xterm tool and my mad
+# GIMP skills to create a terminal representation of Shibe!
+
+function xmas() {
+  /usr/bin/doge --shibe=doge-xmas.txt
+}
