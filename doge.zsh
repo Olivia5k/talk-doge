@@ -2,11 +2,13 @@
 
 # This is a shellscript based presentation. Source this file to start the
 # presentation, then run the functions inside as we go along.
-# This talk was held at pysthlm meetup #16. http://www.pythonista.se
+# This talk was to be held at pysthlm meetup #16. http://www.pythonista.se
+# Unfortunately, I had to cancel due to illness. :(
 # Written by Lowe Thiderman (lowe.thiderman@gmail.com)
 # Licensed under the MIT license
 
 SELF=$0:a:h
+sudo pip install doge --upgrade
 
 # Hey guys
 
